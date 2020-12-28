@@ -1,0 +1,244 @@
+body {
+    overflow-x: hidden;
+}
+nav,.sidenav{
+    background-color: #080561 !important;
+}
+
+.brand-logo{
+    cursor:default;
+    color: #c1eaf7 !important;
+    -webkit-text-stroke: 2px seagreen;
+    font-weight: 700;
+}
+nav i {
+    color:#c1eaf7 ;
+}
+.nav-wrapper li a,
+.sidenav li a{
+    color: #c1eaf7 !important;
+    font-weight: 600;
+}
+.nav-wrapper li a:hover,
+.sidenav li a:hover{
+    background-color: royalblue;
+    color: #86e0fc !important;
+    font-weight: 600;
+}
+.home{
+   background-color: #e3dede;
+}
+.home img{
+    height: 100%;
+    width: 100%;
+    margin-top: -25px;
+}
+.home h1{
+    position: absolute;
+    font-size: 500%;
+    margin-top: 18%;
+    color: #2e3559;
+    font-weight: 500;
+    -webkit-text-stroke:2px grey;
+    text-shadow: 5px 15px 6px #2b2f40;
+}
+.about{
+    background-color: #e3dede;
+    padding-top: 8px;
+    padding-bottom: 30px;
+}
+.about h3{
+    color: #523434;
+    font-weight: 700;
+    -webkit-text-stroke:2px #db5942;
+    text-shadow: 5px 15px 6px #523434;
+    padding-bottom: 20px;
+}
+.about h5{
+    color: #523434;
+    font-weight: 700;
+}
+.about p{
+    color: #523434;
+    font-weight: 600;
+}
+.progress {
+    background-color: #ba968f;
+}
+.parallax-container {
+      height: 350px;
+    }
+.card img{
+    filter: grayscale(1);
+}
+.clients{
+    padding-bottom: 1px;
+    background-color: #1c241e;
+    padding-top: 2px;
+}
+.clients h3{
+    color: crimson;
+    font-weight: 700;
+    -webkit-text-stroke:1px white;
+    text-shadow: 5px 15px 8px rgb(233, 70, 70);
+}
+
+.card-reveal{
+    background-color: blue;
+}
+.card-reveal .card-title{
+    color: crimson;
+    font-weight: 900;
+    -webkit-text-stroke: 1px #edd8d8;
+}
+.card-reveal p{
+    color: burlywood;
+    font-weight: 750;
+    -webkit-text-stroke: 0.4px crimson;
+}
+.card-content .card-title{
+    color: crimson;
+    font-weight: 800;
+    -webkit-text-stroke: 0.8px #edd8d8;
+}
+.card-content a{
+    color: #f7113f;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.services{
+    padding-top: 1px;
+    background-color: #1c241e;
+    padding-bottom: 2px;
+}
+
+.services .card-panel{
+    height: 400px;
+    border: 8px double crimson;
+    border-radius: 15px;
+}
+.services h3{
+    color: crimson;
+    font-weight: 700;
+    -webkit-text-stroke:1px white;
+    text-shadow: 5px 15px 8px crimson;
+}
+.services h5,
+.services P{
+    color: crimson;
+    font-weight: 750;
+}
+.portfolio{
+     background-color: #e3dede;
+     padding-top: 2px;
+}
+.portfolio h3{
+    color: #523434;
+    font-weight: 700;
+    -webkit-text-stroke:2px #db5942;
+    text-shadow: 5px 15px 6px #523434;
+    padding-bottom: 20px;
+}
+.portfolio .container{
+    width: 95%;
+}
+.contact{
+    padding-top: 2px;
+    background-color: #1c241e;
+    height: 640px;
+}
+.contact h3{
+    color: crimson;
+    font-weight: 700;
+    -webkit-text-stroke:1px white;
+    text-shadow: 5px 15px 8px crimson;
+}
+.contact h5{
+    color: crimson;
+    font-weight: 600;
+}
+
+.contact .card-panel{
+height: 100px;
+}
+.btn{
+    margin: 0 auto;
+}
+ .input-field label {
+     color: white;
+}
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field textarea:focus + label {
+     color: crimson !important;
+   }
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus,
+.input-field textarea:focus {
+     border-bottom: 2px solid crimson !important;
+     box-shadow: 0 1px 0 0 crimson !important;
+   }
+
+.input-field input{
+    border-bottom: 2px solid white;
+}
+ .input-field input[type=text],
+ .input-field input[type=email],
+ .input-field textarea{
+     color: white;
+   }
+.input-field input[type=text].valid {
+     border-bottom: 2px solid none !important;
+   }
+   .input-field input[type=text].invalid {
+    border-bottom: 2px solid crimson !important;
+   }
+
+.input-field .prefix {
+     color: white;
+   }
+.input-field .prefix.active {
+     color: crimson;
+   }
+footer{
+    padding-bottom: 10px;
+    background-color: #053a59;
+    padding-top: 2px;
+}
+footer p{
+    color: #c1eaf7 !important;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+@media screen and (max-width: 576px ){
+    body{
+        overflow-x: hidden;
+    }
+    .home img{
+    height: 240px;
+    width: 100%;
+    }
+    .home h1{
+        font-size: 400%;
+    }
+    .card {
+        height: 60%;
+        width: 70%;
+        margin: 20px auto;
+    }
+    .card img{
+        filter: grayscale(1);
+    }
+    .services .card-panel{
+        height:480px;
+        width: 80%;
+        margin: 30px auto;
+    }
+    .portfolio .container{
+    width: 100%;
+}
+    .contact{
+        height:900px;
+    }
+}
